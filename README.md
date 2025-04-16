@@ -36,4 +36,4 @@ sudo bash kasm_release/install.sh
   ```bash
   https://localhost/
 ```
-* enjoy kasm
+* enjoy kasm 
