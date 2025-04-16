@@ -13,6 +13,12 @@ Kasm Workspaces is a container streaming platform that provides secure, browser-
 * **Integration:** Kasm Workspaces can integrate with existing IT infrastructure and supports APIs for automation.
 * **Collaboration Tools:** Features like screen sharing and integrated chat can enhance team collaboration.
 
+How to install Kasm:
+
+-setup Linux Server
+
+-update the Server
+
 -install Kasm:
 
   ```bash
