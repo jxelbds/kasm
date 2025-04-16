@@ -17,7 +17,7 @@ Kasm Workspaces is a container streaming platform that provides secure, browser-
 
 -**How to install Kasm:**
 
--setup Linux Server (works better on AMD64 CPUS but ARM is supported)
+-setup Linux Server (works better on AMD64 Architecture but ARM is also supported)
 
 -update the Server
 
