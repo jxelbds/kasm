@@ -15,11 +15,11 @@ Kasm Workspaces is a container streaming platform that provides secure, browser-
 
 How to install Kasm:
 
--setup Linux Server
+* **setup Linux Server
 
--update the Server
+* **update the Server
 
--install Kasm:
+* **install Kasm:
 
   ```bash
  sudo cd /tmp
@@ -34,4 +34,4 @@ sudo bash kasm_release/install.sh
   https://localhost/
   ```
 
--enjoy kasm
+* **enjoy kasm
