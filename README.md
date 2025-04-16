@@ -39,4 +39,4 @@ sudo bash kasm_release/install.sh
 
 -log in with the credentials that are in the terminal
 
-- enjoy Kasm Workspaces and stay Safe
+-enjoy Kasm Workspaces and stay Safe
