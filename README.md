@@ -36,4 +36,7 @@ sudo bash kasm_release/install.sh
   ```bash
   https://IP-ADDRESS/
 ```
+
+-log in with the credentials that are in the terminal
+
 - enjoy Kasm Workspaces and stay Safe
