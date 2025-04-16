@@ -1,5 +1,5 @@
 # install Kasm on your server
-*What is Kasm?*
+**What is Kasm?**
 
 Kasm Workspaces is a container streaming platform that provides secure, browser-based access to isolated workspaces, including desktops and applications. Key features include:
 
@@ -13,13 +13,13 @@ Kasm Workspaces is a container streaming platform that provides secure, browser-
 * **Integration:** Kasm Workspaces can integrate with existing IT infrastructure and supports APIs for automation.
 * **Collaboration Tools:** Features like screen sharing and integrated chat can enhance team collaboration.
 
-*How to install Kasm:*
+* **How to install Kasm:***
 
-* **setup Linux Server*
+* setup Linux Server
 
-* **update the Server*
+* update the Server
 
-* **install Kasm:*
+* install Kasm:
 
   ```bash
  sudo cd /tmp
@@ -34,4 +34,4 @@ sudo bash kasm_release/install.sh
   https://localhost/
   ```
 
-* **enjoy kasm*
+* enjoy kasm
