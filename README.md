@@ -31,7 +31,7 @@ tar -xf kasm_release_1.16.1.98d6fa.tar.gz
 sudo bash kasm_release/install.sh
 ```
 
--go on:
+-go in your browser and go on:
 
   ```bash
   https://IP-ADDRESS/
