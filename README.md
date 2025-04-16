@@ -2,7 +2,7 @@
 **What is Kasm?**
 
 Kasm Workspaces is a container streaming platform that provides secure, browser-based access to isolated workspaces, including desktops and applications. Key features include:
-```bash
+
   *  Web-native Access: Users can access their workspaces from any device with a web browser, eliminating the need for client software.
   *  Containerization: Each workspace runs in an isolated container, enhancing security and simplifying management.
   *  Desktop as a Service (DaaS): Kasm enables the delivery of virtual desktops on demand, supporting Windows and Linux environments.
@@ -12,7 +12,7 @@ Kasm Workspaces is a container streaming platform that provides secure, browser-
   *  Scalability: The platform is designed to be easily scalable to accommodate growing user bases.
   *  Integration: Kasm Workspaces can integrate with existing IT infrastructure and supports APIs for automation.
   *  Collaboration Tools: Features like screen sharing and integrated chat can enhance team collaboration.
-```
+
 
 
 * **How to install Kasm:**
