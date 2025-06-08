@@ -22,11 +22,23 @@ Application Streaming: Individual applications can be streamed to users' browser
 These features make Kasm an excellent choice for organizations looking to deploy remote workspaces that are easy to manage, secure, and scalable.
 
 
+
+***Hardware Requirements:***
+```bash
+-CPU Architecture: Amd64 or Arm64
+-CPU Cores: min. 2 Cores
+-RAM: mind. 4GB
+-Storage: min. 50GB
+```
+
+-You can install Kasm on an Raspberry Pi but i dont recommend it!
+
 -**How to install Kasm:**
 
--setup Linux Server (works better on x86 Architecture but ARM is also supported)
-
--update the Server
+-update the Server:
+```bash
+  sudo apt update && sudo apt upgrade -y
+```
 
 -install Kasm:
 
