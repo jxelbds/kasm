@@ -33,9 +33,21 @@ These features make Kasm an excellent choice for organizations looking to deploy
 
 -You can install Kasm on an Raspberry Pi but i dont recommend it!
 
--**How to install Kasm:**
 
--update the Server:
+
+
+-**How to install Kasm:**
+-install Linux Operating System:
+```bash
+-Ubuntu 20.04 / 22.04 / 24.04 (amd64/arm64)
+-Debian 11 / 12 (amd64/arm64)
+-Oracle Linux 8 / 9 (amd64/arm64)
+-Red Hat Enterprise Linux 8 / 9 (amd64/arm64)
+-Raspberry Pi OS (Debian) 11 / 12 (arm64)
+-AlmaLinux 8 / 9 (amd64/arm64)
+-Rocky Linux 8 / 9 (amd64/arm64)
+```
+-update the Server (example: Ubuntu Server 24.04):
 ```bash
   sudo apt update && sudo apt upgrade -y
 ```
