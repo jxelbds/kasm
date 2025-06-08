@@ -1,18 +1,25 @@
 # install Kasm Workspaces on your server
 **What is Kasm?**
 
-Kasm Workspaces is a container streaming platform that provides secure, browser-based access to isolated workspaces, including desktops and applications. Key features include:
+Kasm is an open-source, web-based virtual desktop infrastructure (VDI) platform that allows users to access remote desktops and applications from any device with a web browser. It provides features such as multi-user support, secure connections, and easy management of desktop environments. With Kasm, administrators can create and manage multiple virtual desktops, assign users to specific desktops, and monitor user activity in real-time.
 
-  *  Web-native Access: Users can access their workspaces from any device with a web browser, eliminating the need for client software.
-  *  Containerization: Each workspace runs in an isolated container, enhancing security and simplifying management.
-  *  Desktop as a Service (DaaS): Kasm enables the delivery of virtual desktops on demand, supporting Windows and Linux environments.
-  *  Application Streaming: Individual applications can be streamed to users' browsers, providing access to specific tools without a full desktop environment.
-  *  Security Features: Built-in security includes data loss prevention, web content filtering, and options for private and non-attributable browsing.
-  *  Customization: Workspaces can be easily customized to meet specific user and organizational needs.
-  *  Scalability: The platform is designed to be easily scalable to accommodate growing user bases.
-  *  Integration: Kasm Workspaces can integrate with existing IT infrastructure and supports APIs for automation.
-  *  Collaboration Tools: Features like screen sharing and integrated chat can enhance team collaboration.
+One way to run Kasm is by installing it on top of Proxmox, a popular Linux-based virtualization platform 
+Kasm.docx
+. Proxmox offers a robust set of features for managing virtual machines (VMs), including high availability, live migration, and storage management. By combining Kasm with Proxmox, administrators can create a comprehensive VDI solution that meets the needs of large-scale organizations.
 
+However, when installing Kasm on top of Proxmox, there is one important consideration: you will need to set the system type to 'host' during installation [2]. This allows Kasm to utilize the underlying hardware resources provided by Proxmox, enabling it to run as a standalone application rather than as a traditional VM.
+
+Setting the system type to 'host' during installation will also allow Kasm to take advantage of Proxmox's advanced features, such as live migration and high availability. This means that you can easily move desktops between nodes in your Proxmox cluster, or even create redundant systems to ensure continuity in case of hardware failures.
+
+By combining the strengths of both Kasm and Proxmox, administrators can build a robust and scalable VDI solution that meets the needs of demanding users and organizations. Whether you're looking to deploy virtual desktops for remote workers, or need a highly available platform for critical applications, Kasm on Proxmox is an excellent choice.
+
+Kasm Workspaces also provides additional features such as:
+
+Web-native Access: Users can access their workspaces from any device with a web browser, eliminating the need for client software.
+Containerization: Each workspace runs in an isolated container, enhancing security and simplifying management.
+Desktop as a Service (DaaS): Kasm enables the delivery of virtual desktops on demand, supporting Windows and Linux environments.
+Application Streaming: Individual applications can be streamed to users' browsers, providing access to specific tools without a full desktop environment.
+These features make Kasm an excellent choice for organizations looking to deploy remote workspaces that are easy to manage, secure, and scalable.
 
 
 -**How to install Kasm:**
