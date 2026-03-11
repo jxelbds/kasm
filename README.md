@@ -68,9 +68,9 @@ sudo bash kasm_release/install.sh
   https://IP-ADDRESS/
 ```
 
--log in with the credentials that are in the terminal
+-log in with the credentials from the installer
 
--enjoy Kasm Workspaces :)
+-change the login information
 
 
 
